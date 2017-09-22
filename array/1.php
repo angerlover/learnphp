@@ -14,3 +14,4 @@ var_dump($arr2);
 $arr3 = array(true=>'a',1=>'b');
 echo 'arr3等于';
 var_dump($arr3);
+
