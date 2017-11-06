@@ -1,10 +1,10 @@
 <?php 
-// 冒泡排序
+// 冒泡排序 卧槽尼玛确实是我自己写的了
 function bubbleSort(&$arr)
 {
 	// 获取长度
 	$len = count($arr);
-	return $len;
+	// return $len;
 	for ($i=1; $i < $len; $i++) 
 	{ 
 		for ($j=0; $j<$len-$i ; $j++) 
@@ -24,5 +24,5 @@ function bubbleSort(&$arr)
 
 // 测试
 $arr = [1,32,56,19];
-bubbleSort($arr)
-var_dump($arr);
+bubbleSort($arr);
+print_r($arr);
