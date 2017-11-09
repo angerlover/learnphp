@@ -1,4 +1,6 @@
 <?php 
 // 设置cookie
 
-//setcookie('a','pepe',time()+5);
+setcookie('a[a]','pepe');
+setcookie('a[b]','pepe');
+var_dump($_COOKIE['a']['b']);
