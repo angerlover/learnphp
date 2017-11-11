@@ -21,7 +21,7 @@ $p->name = 'wang'; // 因此p改了t也要跟着改
 // print_r($p);
 
 
-// 那么如何实现对象的浅复制呢？ clone
+// 那么如何实现对象的深复制呢？ clone
 $c = clone $t;
 $c->name = '克隆人';  // 互不影响
 print_r($t);
