@@ -1,7 +1,7 @@
 <?php 
 
 // 把下面的$arr1变成$arr2
-
+// 提示：通过fid找规律
 $arr1 = [
 		'0'=>['fid'=>1,'tid'=>1,'name'=>'Name1'],
 		'1'=>['fid'=>1,'tid'=>2,'name'=>'Name2'],
