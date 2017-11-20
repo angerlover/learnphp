@@ -52,7 +52,7 @@ function array_sort2($arr,$keys,$type='desc')
 	{
 		arsort($temp);
 	}
-	else
+	elseif( )
 	{
 		asort($temp);
 	}
